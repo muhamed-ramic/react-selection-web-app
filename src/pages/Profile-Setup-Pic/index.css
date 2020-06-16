@@ -1,0 +1,14 @@
+.drag-n-drop-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  font-size: xx-large;
+  color: #cacaca;
+  justify-content: center;
+  max-width: 90px;
+  margin: 10px auto;
+  padding: 45px 0;
+  max-height: 75px;
+  text-align: center;
+}

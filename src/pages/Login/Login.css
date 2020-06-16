@@ -1,0 +1,43 @@
+h5 {
+  margin: 0;
+}
+
+.login-wrapper-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  align-items: center;
+} 
+
+.login-wrapper-header > h5 {
+  margin: 0 0 0 10px;
+}
+
+.login-wrapper-main {
+  padding: 20px 30px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.login-wrapper-main-header {
+  display: flex;
+}
+
+.login-wrapper-main-reg-btn {
+  padding: 7px 10px;  
+  text-align: center;
+  font-size: 12px;
+  border-radius: 35px;
+  border: 2px solid #000;
+  margin-left: auto;
+  margin-right: 0;
+}
+.login-wrapper-forgot-pw {
+  color: darkslateblue;
+  text-align: right;
+  font-size: 12px;
+}
+
+form {
+  margin-top: 20px;
+}

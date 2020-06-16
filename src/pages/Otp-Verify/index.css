@@ -1,0 +1,21 @@
+.otp-code-wrapper {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+.otp-code-line {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  border-bottom: 2px solid #000;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.otp-code-resend {
+  margin-top: 20px;
+  font-size: 10px;
+  color: lightskyblue;
+}

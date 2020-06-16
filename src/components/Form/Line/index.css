@@ -1,0 +1,32 @@
+.line {
+  position: relative;
+  font-size: 10px;
+  color: #cacaca;
+  text-align: center;
+}
+
+.line-inner {
+  position: relative;
+  background: white;
+  z-index: 5;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.line::before {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  border-top: 1px solid #cacaca;
+  content: "-";
+  width: 160px;
+}
+
+.line::after {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  border-top: 1px solid #cacaca;
+  content: "-";
+  width: 160px;
+}

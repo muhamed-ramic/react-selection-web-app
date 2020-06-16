@@ -1,0 +1,95 @@
+input.custom {
+  width: 100%;
+  padding: 0;
+  height: auto;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.country-list {
+  position: relative;
+  top: -20px;
+}
+
+ul.exam-list {
+  width: calc(100% + 30px);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  transform: translateX(-15px);
+}
+
+ul.exam-list > li {
+  font-size: 11px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+ul.exam-list > li:hover {
+  background: lightskyblue;
+}
+
+li {
+  text-align: left;
+}
+
+.submenu {
+  position: relative;
+  top: -25px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 5px 15px;
+}
+
+input::placeholder {
+  color: #cacaca;
+  font-size: 12px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 7px;
+  border: 1px solid #cacaca;
+  border-radius: 9px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.input-wrap > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.margin-r-10 {
+  margin-right: 10px;
+}
+
+.phone-prefix {
+  min-width: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 5px 5px 15px;
+  margin-right: 15px;
+  font-size: 12px;
+  border-right: 1px solid #cacaca;
+}
+
+.phone-prefix +input.custom {
+  margin-left: 50px;
+}
